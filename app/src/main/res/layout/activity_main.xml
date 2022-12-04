@@ -7,12 +7,55 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tv_start_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Start Activity"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:textColor="@color/teal_200"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_go_to_1_activity"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/teal_700"
+        app:layout_constraintVertical_bias="0.3"
+        android:text="First Activity"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/tv_start_activity" />
+
+    <Button
+        android:id="@+id/btn_go_to_2_activity"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/teal_700"
+        app:layout_constraintVertical_bias="0.5"
+        android:text="Second Activity"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/tv_start_activity" />
+
+    <Button
+        android:id="@+id/btn_go_to_3_activity"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/teal_700"
+        app:layout_constraintVertical_bias="0.7"
+        android:text="Third Activity"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/tv_start_activity" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
